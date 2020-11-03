@@ -10,7 +10,7 @@ var requestOptions = {
    redirect: 'follow'
  };
 
- fetch("https://sz7cf2ovwe.execute-api.us-east-2.amazonaws.com/prod/count", requestOptions)
+ fetch("https://aq9j3f4t38.execute-api.us-east-1.amazonaws.com/prod/", requestOptions)
    .then(response => response.text())
    .then(result => console.log(result))
    .catch(error => console.log('error', error));
